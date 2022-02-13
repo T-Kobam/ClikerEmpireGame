@@ -1,0 +1,68 @@
+/* ここからCSSを記述してください。 */
+.bg-gray {
+    background-color: rgb(70, 70, 70);
+}
+
+.bg-blue {
+    background-color: rgba(100, 124, 255, 0.76);
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-white {
+    background-color: white;
+}
+/* 
+.btn.outline {
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: rgb(172, 172, 172);    
+} */
+
+.text-green {
+    color: rgb(12, 255, 4);
+}
+
+/* effect */
+.hover {
+    cursor: pointer;
+}
+
+.hover:hover {
+    opacity: 0.8;
+}
+
+.item-btn {
+    cursor: pointer;
+}
+
+.item-btn:hover {
+    border: solid 2px yellow;
+}
+
+.fa-2x {
+    border: solid 1px white;
+    width: 10%;
+    height: 10%;
+    padding: 1%;
+}
+
+.font-white {
+    color: white;
+}

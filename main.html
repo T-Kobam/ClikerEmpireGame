@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Clicker Empire Game</title>
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- font-awesome -->
+        <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <div class="vh-100 bg-gray d-flex justify-content-center align-items-center">
+
+            <div class="col-11 d-flex justify-content-center align-items-center p-2">
+        
+                <div id="main-menu" class="d-none bg-blue">
+        
+                    <div class="col-12 d-flex justify-content-center align-items-start p-2">
+        
+                        <!-- 左半分の画面 -->
+                        <div class="bg-gray col-4 d-flex flex-wrap p-2 align-items-start">
+        
+                            <!-- ハンバーガー詳細情報 -->
+                            <div class="text-white text-center px-0 col-12" id="burger-detail"></div>
+        
+                            <!-- ハンバーガーの画像 -->
+                            <div class="col-12 text-center p-0">
+                                <img src="https://cdn.pixabay.com/photo/2014/04/02/17/00/burger-307648_960_720.png" width="80%" class="py-2 hover img-fuid" id="burger-img">
+                            </div>
+        
+                        </div>
+        
+                        <!-- 右半分の画面 -->
+                        <div class="bg-blue col-8 px-1">
+        
+                            <!-- ユーザステータス -->
+                            <div class="bg-blue col-12 d-flex flex-wrap justify-content-center align-items-center px-3">
+                                <div class="bg-gray d-flex flex-wrap justify-content-between col-12 p-0" id="user-detail">
+                                    <div class="p-1 pr-2 col-12 d-flex text-white text-center">
+                                        <div class="bg-blue col-6 mr-1"></div> 
+                                        <div class="bg-blue col-6 mr-2"></div> 
+                                    </div>
+                                    <div class="p-1 pr-2 col-12 d-flex text-white text-center">
+                                        <div class="bg-blue col-6 mr-1"></div> 
+                                        <div class="bg-blue col-6 mr-1"></div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END : ユーザステータス -->
+                            
+                            <!-- アイテムリスト & アイテム詳細 -->
+                            <div class="p-2">
+                                <div class="bg-gray p-2 overflow-auto" id="item-list" style="width:auto; height:500px;"></div>
+                                <div class="bg-gray p-2 d-none" style="width:auto; height:500px" id="item-detail"></div>
+                            </div>
+                            <!-- END : アイテムリスト & アイテム詳細 -->
+                            
+                            <div class="d-flex justify-content-end text-center">
+                                <i class="fas fa-save fa-2x font-white mr-1 hover" id="save-btn"></i>
+                                <i class="fas fa-undo fa-2x font-white ml-1 hover" id="reset-btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- ログイン画面 -->
+                <div id="login-menu" class="bg-white col-7">
+                </div>
+        
+            </div>    
+            
+        </div>
+        <!-- javascript -->
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
