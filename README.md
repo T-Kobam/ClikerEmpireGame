@@ -1,5 +1,7 @@
 # ClikerEmpireGame
 
+- RecursionCSの課題で作成
+
 #### デモ画面 : 
 https://t-kobam.github.io/ClikerEmpireGame/main.html
 
